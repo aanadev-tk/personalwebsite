@@ -1,0 +1,5 @@
+# Configuração do GitHub Pages.
+# Impede que os documentos internos e o README sejam publicados como páginas do site.
+exclude:
+  - documentos/
+  - README.md

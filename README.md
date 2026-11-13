@@ -10,9 +10,14 @@ portfolio/
 ├── index.html      Conteúdo e textos de todas as seções
 ├── css/
 │   └── style.css   Cores, tipografia, layout, animações e responsividade
-└── js/
-    └── main.js     Contatos, menu, animações e interações
+├── js/
+│   └── main.js     Contatos, menu, animações e interações
+├── documentos/     Modelos de atendimento: briefing, proposta, contrato, entrega
+└── _config.yml     Impede que documentos/ seja publicado junto com o site
 ```
+
+Os documentos de atendimento e o passo a passo de uso estão em
+[documentos/README.md](documentos/README.md).
 
 ## Como abrir
 

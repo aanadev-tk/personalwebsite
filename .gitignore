@@ -1,3 +1,7 @@
+# Documentos preenchidos de clientes (dados pessoais: ficam só no computador)
+documentos/clientes/
+clientes/
+
 # Sistema operacional
 .DS_Store
 Thumbs.db
