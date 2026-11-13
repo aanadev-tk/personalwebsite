@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ana Simões — Design + Código | Criação de sites</title>
+<meta name="description" content="Sites criados por quem entende de design e de código. Landing pages, sites institucionais e redesign com visual próprio, carregamento rápido e foco em gerar contato.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230c0c0d'/%3E%3Cpath d='M8 24 16 7l8 17' fill='none' stroke='%23ff4a1c' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="grid" aria-hidden="true"></canvas>
+<div id="cur" aria-hidden="true"><i></i><span>x:0 y:0</span></div>
+
+<nav id="nav">
+  <a href="#topo" class="logo">ana<b>.</b>simoes<b>/</b></a>
+  <ul class="mono" id="menu">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#processo">Processo</a></li>
+    <li><a href="#duvidas">Dúvidas</a></li>
+  </ul>
+  <div class="nav-r">
+    <a class="btn sm fill" data-wa href="#contato">Pedir orçamento</a>
+    <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"></button>
+  </div>
+</nav>
+
+<main id="topo">
+
+<!-- HERO -->
+<section class="hero wrap">
+  <span class="mono status">Agenda aberta para novos projetos</span>
+  <h1>
+    <span class="ln"><span>Site desenhado com</span></span>
+    <span class="ln"><span><span class="selbox">intenção<u></u><u></u><u></u><u></u><em id="dim">0 × 0</em></span>. Programado</span></span>
+    <span class="ln"><span>com <span class="code">&lt;precisão/&gt;</span></span></span>
+  </h1>
+  <div class="hero-foot">
+    <p>Você não precisa escolher entre um site bonito e um site que funciona. O seu terá <strong>identidade própria</strong>, velocidade de carregamento em qualquer dispositivo e uma estrutura pensada para <strong>transformar visitantes em clientes.</strong></p>
+    <div class="cta-row">
+      <a class="btn fill mag" data-wa href="#contato">Quero meu site <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12 12 2M4 2h8v8"/></svg></a>
+      <a class="btn mag" href="#processo">Ver como funciona</a>
+    </div>
+  </div>
+  <span class="mono scrollhint">Role</span>
+</section>
+
+<div class="mq" aria-hidden="true"><div>
+  <span>Landing pages</span><span>identidade visual</span><span>Sites institucionais</span><span>totalmente responsivo</span><span>Redesign</span><span>código limpo</span><span>Portfólios</span><span>feito sob medida</span>
+  <span>Landing pages</span><span>identidade visual</span><span>Sites institucionais</span><span>totalmente responsivo</span><span>Redesign</span><span>código limpo</span><span>Portfólios</span><span>feito sob medida</span>
+</div></div>
+
+<!-- PROBLEMA -->
+<section class="light">
+  <div class="wrap">
+    <span class="mono tag" data-scr>// o problema</span>
+    <h2 class="rv">Um site genérico custa mais caro do que <i>parece.</i></h2>
+    <p class="lead rv">Quem acessa o seu site decide em poucos segundos se permanece ou retorna à busca. Quando retorna, quem o atende é o seu concorrente.</p>
+    <div class="pains">
+      <div class="pain rv"><span class="mono">01</span><h3>Parece com todos os outros</h3><p>Modelo pronto, imagens de banco e textos que serviriam a qualquer empresa. O visitante não se lembra da sua marca depois de sair.</p></div>
+      <div class="pain rv" style="--d:.1s"><span class="mono">02</span><h3>Demora para carregar</h3><p>Cada segundo de espera aumenta a desistência antes mesmo de o visitante conhecer o que você oferece, principalmente no celular.</p></div>
+      <div class="pain rv" style="--d:.2s"><span class="mono">03</span><h3>É bonito, mas não gera resultado</h3><p>O visitante percorre a página e sai sem entrar em contato, porque em nenhum momento ficou claro qual era o próximo passo.</p></div>
+    </div>
+    <p class="turn rv">O seu site deve trabalhar pelo seu negócio. <i>Vinte e quatro horas por dia.</i></p>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="wrap">
+  <span class="mono tag" data-scr>// sobre mim</span>
+  <h2 class="rv">Dois lados do mesmo <i>ofício.</i></h2>
+  <p class="lead rv">Em geral, um projeto de site envolve dois profissionais: um cria o layout e outro o programa, e parte do que foi planejado se perde nessa passagem. Aqui, design e desenvolvimento são feitos pela mesma pessoa. O layout que você aprova é exatamente o que será publicado.</p>
+  <div class="about">
+    <article class="track rv">
+      <header class="mono"><span>Experiência</span><b>design.fig</b></header>
+      <h3>Design Gráfico<small>atuação profissional</small></h3>
+      <p>É a minha base profissional. Hierarquia, tipografia, cor e composição. Os elementos que conduzem o olhar e fazem a mensagem ser compreendida com clareza, na ordem certa.</p>
+      <ul><li>Peças para redes sociais</li><li>Materiais impressos</li><li>Photoshop</li><li>Illustrator</li></ul>
+      <div class="bar"></div><small>base sólida, aplicada todos os dias</small>
+    </article>
+    <article class="track rv" style="--d:.12s">
+      <header class="mono"><span>Formação</span><b>dev.js</b></header>
+      <h3>Análise e Desenvolvimento de Sistemas<small>graduação em andamento</small></h3>
+      <p>É a minha área de especialização. Lógica, estrutura e boas práticas de desenvolvimento. Os fundamentos que garantem um site funcional, estável e adaptado a qualquer dispositivo.</p>
+      <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Design responsivo</li><li>Lógica de programação</li><li>Banco de dados</li><li>Git</li><li>UX/UI</li></ul>
+      <div class="bar" style="--v:.6"></div><small>em evolução constante</small>
+    </article>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="wrap">
+  <span class="mono tag" data-scr>// serviços</span>
+  <h2 class="rv">O que posso desenvolver <i>para você.</i></h2>
+  <div class="svc">
+    <a class="row rv" data-wa="Olá, Ana! Tenho interesse em uma landing page." href="#contato"><span class="n">01</span><h3>Landing page</h3><p>Uma página, um objetivo. Ideal para lançar um produto, divulgar um serviço ou captar contatos de uma campanha.<b>→ para quem tem uma oferta específica a apresentar</b></p><svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 24 24 6M10 6h14v14"/></svg></a>
+    <a class="row rv" data-wa="Olá, Ana! Tenho interesse em um site institucional." href="#contato"><span class="n">02</span><h3>Site institucional</h3><p>A presença oficial do seu negócio na internet: quem você é, o que oferece e como entrar em contato, com a sua identidade em cada detalhe.<b>→ para empresas e profissionais autônomos</b></p><svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 24 24 6M10 6h14v14"/></svg></a>
+    <a class="row rv" data-wa="Olá, Ana! Tenho interesse em um portfólio." href="#contato"><span class="n">03</span><h3>Portfólio</h3><p>Seu trabalho apresentado com o cuidado que ele merece, pensado para gerar confiança em clientes e recrutadores.<b>→ para criativos, freelancers e profissionais liberais</b></p><svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 24 24 6M10 6h14v14"/></svg></a>
+    <a class="row rv" data-wa="Olá, Ana! Quero repaginar meu site atual." href="#contato"><span class="n">04</span><h3>Redesign</h3><p>Já tem um site, mas ele está desatualizado? Preservo o que funciona e reformulo o que está afastando os seus clientes.<b>→ para quem já tem presença online e busca melhores resultados</b></p><svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 24 24 6M10 6h14v14"/></svg></a>
+  </div>
+
+  <div class="demo rv" id="demo">
+    <div class="pane c"><pre><span class="t">&lt;section</span> <span class="a">class</span>=<span class="s">"hero"</span><span class="t">&gt;</span>
+  <span class="t">&lt;nav&gt;</span>Café Aurora<span class="t">&lt;/nav&gt;</span>
+
+  <span class="t">&lt;h1&gt;</span>
+    Café que <span class="t">&lt;i&gt;</span>acorda<span class="t">&lt;/i&gt;</span>
+    o bairro.
+  <span class="t">&lt;/h1&gt;</span>
+
+  <span class="t">&lt;p&gt;</span>Grãos torrados toda semana,
+     a duas quadras de você.<span class="t">&lt;/p&gt;</span>
+
+  <span class="t">&lt;a</span> <span class="a">href</span>=<span class="s">"#pedir"</span> <span class="a">class</span>=<span class="s">"btn"</span><span class="t">&gt;</span>
+    Pedir agora
+  <span class="t">&lt;/a&gt;</span>
+<span class="t">&lt;/section&gt;</span>
+
+.hero h1 { <span class="a">font-size</span>: <span class="s">clamp(30px, 5vw, 76px)</span>; }
+.hero i  { <span class="a">color</span>: <span class="s">#ff4a1c</span>; }</pre></div>
+    <div class="pane d">
+      <div class="mock-nav"><span>Café Aurora</span><span>Menu ≡</span></div>
+      <h4>Café que <i>acorda</i> o bairro.</h4>
+      <p>Grãos torrados toda semana, a duas quadras de você.</p>
+      <span class="b">Pedir agora →</span>
+    </div>
+    <div class="knob"></div>
+    <label class="l">DESIGN</label><label class="r" style="background:var(--ink);color:var(--bone)">CÓDIGO</label>
+    <input type="range" min="0" max="100" value="50" aria-label="Arraste para comparar o design e o código">
+  </div>
+  <p class="mono rv" style="color:var(--mute);margin-top:14px">↔ arraste para comparar: o design e o código, feitos pela mesma pessoa</p>
+</section>
+
+<!-- PROCESSO -->
+<section id="processo" class="light">
+  <div class="wrap">
+    <span class="mono tag" data-scr>// processo</span>
+    <h2 class="rv">Quatro etapas. Total <i>transparência.</i></h2>
+    <p class="lead rv">Você acompanha cada etapa e nada é publicado sem a sua aprovação.</p>
+    <ol class="steps" id="steps">
+      <li class="rv"><h3><span>01 — CONVERSA</span>Entendo o seu negócio</h3><p>Uma conversa inicial para entender o que você faz, quem é o seu cliente e o que o site precisa resolver. Sem termos técnicos.</p></li>
+      <li class="rv"><h3><span>02 — DESIGN</span>Você aprova antes do desenvolvimento</h3><p>Elaboro o layout completo e apresento a você. Nesta etapa ajustamos cores, textos e estrutura, enquanto as alterações ainda são simples.</p></li>
+      <li class="rv"><h3><span>03 — CÓDIGO</span>O layout se torna site</h3><p>Transformo o design aprovado em um site rápido, que se adapta a celular, tablet e computador, com animações na medida certa.</p></li>
+      <li class="rv"><h3><span>04 — ENTREGA</span>Publicação e acompanhamento</h3><p>Publico o site, apresento o funcionamento de cada parte e permaneço disponível nos primeiros dias para eventuais ajustes.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="duvidas" class="wrap">
+  <span class="mono tag" data-scr>// dúvidas comuns</span>
+  <h2 class="rv">Perguntas <i>frequentes.</i></h2>
+  <div class="faq">
+    <details class="rv"><summary>Quanto custa um site?</summary><p>Depende do tamanho do projeto e das funcionalidades necessárias. Por isso, o orçamento é feito sob medida e sem compromisso: você apresenta a ideia e recebe uma proposta com valor e prazo definidos, sem custos inesperados ao longo do projeto.</p></details>
+    <details class="rv"><summary>Em quanto tempo fica pronto?</summary><p>Uma landing page costuma levar menos tempo que um site com várias páginas. O prazo exato é definido antes do início e consta por escrito no orçamento.</p></details>
+    <details class="rv"><summary>Não tenho conhecimento técnico. Isso é um problema?</summary><p>De forma alguma. A parte técnica fica sob minha responsabilidade. Você só precisa apresentar o seu negócio; todo o restante é explicado em linguagem clara.</p></details>
+    <details class="rv"><summary>O site vai funcionar bem no celular?</summary><p>Sim. Todo projeto é pensado primeiro para a tela do celular, onde costuma ocorrer a maior parte dos acessos, e depois adaptado para telas maiores.</p></details>
+    <details class="rv"><summary>Por que não usar um construtor de sites pronto?</summary><p>É uma opção válida e, em alguns casos, suficiente. A diferença é que um site feito sob medida não carrega recursos desnecessários, não se parece com nenhum outro e é projetado em torno do seu objetivo, não de um modelo.</p></details>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="contato" class="final wrap">
+  <span class="mono tag" data-scr>// próximo passo</span>
+  <h2 class="rv">Vamos iniciar o seu <i>projeto?</i></h2>
+  <p class="lead rv">Descreva a sua ideia em uma mensagem. Você recebe uma proposta com escopo, prazo e valor. Se não for o momento, não há problema: o primeiro contato é sem compromisso.</p>
+  <a class="btn fill mag rv" data-wa href="#">Falar pelo WhatsApp <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12 12 2M4 2h8v8"/></svg></a>
+  <small class="mono rv">Atendo um número limitado de projetos por vez, para dedicar a devida atenção a cada um.</small>
+</section>
+</main>
+
+<footer class="mono">
+  <span>© <span id="yr"></span> Ana Simões — design + código</span>
+  <span><a data-mail href="#">E-mail</a> &nbsp;·&nbsp; <a data-wa href="#">WhatsApp</a> &nbsp;·&nbsp; <a href="#topo">Topo ↑</a></span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
