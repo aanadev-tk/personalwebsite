@@ -41,7 +41,7 @@ Abra o `index.html` no navegador. Não é preciso instalar nada.
 ## Trabalhar em outra máquina
 
 ```bash
-git clone <endereço-do-repositório>
+git clone https://github.com/aanadev-tk/personalwebsite.git
 ```
 
 Depois de alterar os arquivos:
